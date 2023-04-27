@@ -30,7 +30,7 @@ pipeline {
             }
         }
         stage('Push Docker Image') {
-/*            when {
+/*          when {
                 branch 'master'
             }*/
             steps {
