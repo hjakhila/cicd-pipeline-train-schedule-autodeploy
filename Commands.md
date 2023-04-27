@@ -3,3 +3,7 @@
 ```
 kubectl port-forward --address 0.0.0.0 svc/train-schedule-service-canary 30209:8090
 ```
+
+```
+kubectl get deployment
+```
