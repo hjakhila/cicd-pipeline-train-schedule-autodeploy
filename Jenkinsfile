@@ -42,7 +42,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploy'){
+        stage('Deploy to cluster'){
             environment { 
                 CANARY_REPLICAS = 1
                 DOCKER_IMAGE_NAME = "hjakhila/train-schedule"
